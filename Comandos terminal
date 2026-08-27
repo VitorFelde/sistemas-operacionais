@@ -1,0 +1,63 @@
+----------pastas e arquivos----------
+
+ls - listar arquivos e pastas
+
+mkdir - criar pasta
+
+cat - mostrar o que tem dentro de um arquivo
+
+nano - abrir area digitavel de um arquivo.txt
+
+rmdir - exclui uma pasta
+
+rm - exclui um arquivo
+
+cd example - abre o arquivo/pasta
+
+cd .. - voltar uma pasta
+
+pwd - mostrar aonde esta
+
+clear - limpar terminal 
+
+ps ax - lista todos os processos sendo usados no momento
+
+ps ax | grep example - serve para abrir os processos desse example
+
+ps aux - mostra a lista detalhada de processos 
+
+top - gerenciador de tarefas
+
+ctrl + shift + v - cola comandos ou qualquer coisa dentro
+
+----------permissões de usuario----------
+
+whoami - ve quem está logado no sistema
+
+id - mostra opções de visualização do usuário
+
+groups - mostra quais grupos tem no computador
+
+cat /etc/passwd - lista todos os usuários do sistema
+
+awk -F: '$3>=1000{print $1}' /etc/passwd - mostra todos os usuarios humanos da maquina
+
+who - quem tem acesso
+
+users - user logado
+
+last - ultimos acessos
+
+
+----------permissões de arquivos----------
+
+ls -l - ve de forma detalhadas as permissoes que os usuarios tem sob tal arquivo ---- primeira parte dono, segunda do grupo e terceira todos os usuarios
+
+man chmod - muda o modo de cada arquivo - altera permissoes de cada tipo de usuario, faz atribuições de cada tipo de permissão // pode ser com r, w e x - read, write e exe
+
+chmod u+x example - pra poder nesse caso transformar em um executavel - o mais adiciona uma permissão
+
+chmod u-x example - faz nao ser mais um executavel - o menos tira uma permissao
+
+./ - executa um arquivo
+
