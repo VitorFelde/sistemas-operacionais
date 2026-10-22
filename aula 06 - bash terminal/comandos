@@ -1,0 +1,16 @@
+nano calculadora.sh //this open the editor of the file for us
+
+num1=10.5
+num2=3.2
+
+echo "In operations with decimal places, we use bc to get the exact resutlt"
+resultado=$(echo "$num1 + $num2" | bc )
+echo "Resultado =  $resultado"
+  
+ctrl o + ctrl x
+
+
+chmod +x calculadora.sh //this allows the execution
+./calculadora.sh //this executes our file 
+
+  
