@@ -1,5 +1,13 @@
 nano testar.sh
 
-if [ -f"arquivo1.txt"]; then
+touch arquivo1.txt arquivo2.txt arquivo3.txt
+mkdir diretorio
+
+if [ -f"arquivo1.txt" ]; then
    echo "arquivo1.txt existe e é regular"
 fi
+
+if [ -d"diretorio" ]; then
+   echo "diretorio existe e é regular"
+fi
+
