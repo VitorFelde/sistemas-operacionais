@@ -1,0 +1,43 @@
+nano operadores_comparacao.sh
+
+#operacoes no bash script
+
+#equal = -eq
+#differente = -ne
+#less then = -lt
+#less or equal = -le
+#greater than = -gt
+#greater or equal = -ge
+
+a=10
+b=15
+
+echo "Valores de A = $a, B = $b"
+if [ $a -lt $b ]; then
+  echo "a is smaller than b"
+fi
+
+ctrl o + ctrl x
+
+chmod +x operadores_comparacao.sh
+
+./operadores_comparacao.sh 
+or
+sh operadores_comparacao.sh //with this we dont even need the chmod
+
+echo "Operadores de comparação de strings"
+# = equal
+# != different
+# < smaller than
+# > bigger than
+
+str1=ifpr
+str2=ifpr
+
+if [[ "$str1" != "$str2" ]]; then
+   echo "As strings são diferentes"
+else 
+   echo "As strings são iguais"
+fi
+
+
