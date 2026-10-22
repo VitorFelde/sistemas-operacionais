@@ -1,0 +1,5 @@
+nano testar.sh
+
+if [ -f"arquivo1.txt"]; then
+   echo "arquivo1.txt existe e é regular"
+fi
